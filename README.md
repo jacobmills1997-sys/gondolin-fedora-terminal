@@ -46,13 +46,20 @@ background, so your existing background / opacity / blur are preserved.
 ## Konsole
 
 `konsole/Gondolin.colorscheme` includes `Blur=true` and `Opacity=0.75` for the
-same frosted-glass look.
+same frosted-glass look, and `konsole/Gondolin.profile` is a ready-made profile
+that selects it (with Source Code Pro to match the rest of the set).
+
+**One-click apply** — drop both files into Konsole's data dir:
 
 ```sh
-cp konsole/Gondolin.colorscheme ~/.local/share/konsole/
+cp konsole/Gondolin.colorscheme konsole/Gondolin.profile ~/.local/share/konsole/
 ```
-Then Konsole → Settings → Edit Profile → Appearance → choose **Gondolin**.
-(Ensure your compositor — KWin on KDE — has "Blur" enabled for the effect.)
+Then in Konsole: **Settings → Manage Profiles → Gondolin → Set as Default**
+(or **View → Switch Profile → Gondolin** for the current window).
+
+> The profile references the `Gondolin` colorscheme by name, so both files must
+> be installed together. For the blur/transparency, ensure your compositor —
+> KWin on KDE — has the "Blur" desktop effect enabled.
 
 ## Claude Code
 
