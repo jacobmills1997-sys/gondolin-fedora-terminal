@@ -1,0 +1,12 @@
+# ═══════════════════════════════════════════════════════════════════════════
+#  Example kitty.conf using the Gondolin palette.
+#  Background + frosted-glass settings stay here; colours come from the include.
+# ═══════════════════════════════════════════════════════════════════════════
+
+background            #11161f
+background_opacity    0.75
+background_blur       30
+dynamic_background_opacity yes
+
+# Gondolin palette: foreground, cursor, selection, url, color0-15
+include gondolin.conf

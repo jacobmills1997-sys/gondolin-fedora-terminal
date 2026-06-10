@@ -1,0 +1,32 @@
+{
+  "name": "Gondolin",
+  "base": "dark",
+  "overrides": {
+    "claude": "#f4b56a",
+    "claudeShimmer": "#ffc77c",
+    "text": "#e8dfc8",
+    "inverseText": "#131c2e",
+    "selection": "#283856",
+    "success": "#8ace66",
+    "error": "#f25b50",
+    "warning": "#e0a44e",
+    "permission": "#d99a3c",
+    "planMode": "#84aad0",
+    "thinking": "#8a9db8",
+    "autoAccept": "#5fa64a",
+    "spinner": "#f4b56a",
+    "promptBorder": "#5a6072",
+    "border": "#3c4d70",
+    "bashBorder": "#4f7cb0",
+    "rule": "#5a6072",
+    "memory": "#74c9cf",
+    "userMessageBackground": "#1d2942",
+    "userMessageBackgroundHover": "#283856",
+    "diffAdded": "#18301d",
+    "diffAddedWord": "#2c5234",
+    "diffAddedDimmed": "#142519",
+    "diffRemoved": "#34141a",
+    "diffRemovedWord": "#5a2230",
+    "diffRemovedDimmed": "#281015"
+  }
+}
